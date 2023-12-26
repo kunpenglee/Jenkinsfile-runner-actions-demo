@@ -96,7 +96,7 @@ passing the necessary inputs, you can start the pipeline.
 ### jenkins-runtime-pipeline
 This case is realized by the combination of jenkins-setup, jenkins-plugin-installation-action and jenkinsfile-runner-action. 
 It will download all the dependencies and run the pipeline at the host machine directly. 
-Its advantage is that it can support Linux, macOS and Windows runners. 
+Its advantage is that it can support Linux, macOS and Windows runners...
 Its main disadvantage is the possibility of suffering from a plugins.jenkins.io outage.
 ```yaml
   jenkins-runtime-pipeline:
